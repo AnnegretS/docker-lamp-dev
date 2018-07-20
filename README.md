@@ -14,4 +14,5 @@ It's possible to provide some information via environment variables. You can def
 	- 5.4
 	- 5.6
 	- 7.0
+	- 7.2
 	

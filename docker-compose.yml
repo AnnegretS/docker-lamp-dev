@@ -10,7 +10,7 @@ services:
       - "./conf/php/mail.ini:/usr/local/etc/php/conf.d/mail.ini"
       - "./conf/php/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini"
     ports:
-      - "80:80"
+      - "8080:80"
     networks:
       - front-net
       - back-net
