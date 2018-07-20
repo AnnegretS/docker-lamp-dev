@@ -29,7 +29,7 @@ services:
       - back-net
 
   mysql:
-    image: mysql
+    image: mysql:5
     volumes:
       - "db-data-mysql:/var/lib/mysql"
       - "./db-init-mysql:/docker-entrypoint-initdb.d"
